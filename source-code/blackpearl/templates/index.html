@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+	{{ super() }}
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/039.css', _external=True) }}">
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/039.js') }}"></script>
+{% endblock %}
+{% block body %}
+	<header><h1>blackpearl control panel</h1></header>
+	<div class="left-column">
+		<section id="camera-display">
+			<fieldset>
+				<legend><h3>Camera Screen</h3></legend>
+				<iframe src="http://10.0.0.4:8081/"></iframe> 
+			</fieldset>
+		</section>
+	</div>
+	
+	<div class="right-column">
+		<section id="movement-controller">
+			<fieldset>
+				<legend><h3>Movement Controller</h3></legend>
+				
+				<table class="button-table" border="1">
+					<tr><td colspan="3"><a href="#" id="forward-button" data-movement-action="forward" class="buttons">Up</a></td></tr>
+					<tr>
+						<td><a href="#" id="left-button" data-movement-action="left" class="button">Left</a></td>
+						<td><a href="#" id="stop-button" class="button">&nbsp;&nbsp;</a></td>
+						<td><a href="#" id="right-button" data-movement-action="right" class="button">Right</a></td>
+					</tr>
+					<tr><td colspan="3"><a href="#" id="backward-button" data-movement-action="backward" class="buttons">Down</a></td></tr>
+				</table>
+				
+			</fieldset>
+		</section>
+        
+        <section id="radar">
+            <fieldset>
+                <legend><h3>Radar</h3></legend>
+                <iframe src="http://10.0.0.4:9090" scrolling="no"></iframe>
+            </fieldset>
+        </section>
+	</div>
+{% endblock %}

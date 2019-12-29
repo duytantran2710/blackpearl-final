@@ -1,0 +1,17 @@
+div#radar {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 580px;
+    padding: 0 0 0 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.object {
+    background-image: url('../images/dot.png');
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+}
