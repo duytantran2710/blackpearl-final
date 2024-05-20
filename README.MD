@@ -1,5 +1,6 @@
 ## blackpearl project - CIS39
-
+A robotic project I built in college. This project was my final exam for CIS39 class.
+---
 Photos:
 ![blackpearl-img](/images/IMG_1047.JPG)
 ![blackpearl-img](/images/IMG_1048.JPG)
