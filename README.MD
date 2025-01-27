@@ -1,4 +1,16 @@
 # “blackpearl” Robot
+
+## Table of Contents
+* [Overview](#overview)
+* [Purpose](#purpose)
+* [Hardware Components](#hardware-components)
+* [Software Stack](#software-stack)
+* [Features](#features)
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+* [Conclusion](#conclusion)
+* [Images](#images)
+
 ## Overview
 The “blackpearl” robot is an exploration robot created using a Raspberry Pi microcontroller, with the ability to perform simple movements, detect objects, and stream live footage from a camera. This robot is designed to be controlled remotely via a web interface, and can be accessed from both computers and smartphones using a Wi-Fi connection.
 
